@@ -1,0 +1,30 @@
+6781d6572766dc79429c5aee73ecf7e7
+
+https://tile.openweathermap.org/map/clouds_new/100/1000/1000.png?appid=6781d6572766dc79429c5aee73ecf7e7
+
+<button id="submitLocation" class="button">Find</button>
+
+appmodule
+appcomponent
+index
+
+http://openweathermap.org/img/wn/10d@2x.png
+
+https://api.openweathermap.org/data/2.5/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={API key}
+https://api.openweathermap.org/data/2.5/onecall/timemachine?lat=6.2088&lon=106.8456&dt=1608131561&appid=6781d6572766dc79429c5aee73ecf7e7
+
+1608131561
+1608045161
+1607958761
+1607872361
+
+Git Commands:
+ls
+cd
+git remote add origin <gitLink>
+git remote -v
+git add .
+git commmit -m "First Commit"
+git push origin master
+
+git help
