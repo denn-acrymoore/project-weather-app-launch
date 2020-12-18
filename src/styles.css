@@ -257,28 +257,6 @@ form textarea {
 .map {
   height: 220px; }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  *zoom: 1; }
-  .container:after {
-    content: " ";
-    clear: both;
-    display: block;
-    overflow: hidden;
-    height: 0; }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px; } }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px; } }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px; } }
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -1169,38 +1147,16 @@ form textarea {
         color: white;
         -webkit-transition: .3s ease;
                 transition: .3s ease;
-        font-weight: 500; }
+        font-weight: 500; 
+      }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
         border-color: #009ad8;
-        color: #009ad8; }
+        color: #009ad8; 
+      }
 
 .menu-item a:focus {
   outline: none;
 }
-
-.mobile-navigation {
-  padding: 30px 0 0;
-  clear: both;
-  display: none; }
-  @media screen and (min-width: 991px) {
-    .mobile-navigation {
-      display: none !important; } }
-  .mobile-navigation .menu {
-    background: #262936;
-    list-style: none;
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden; }
-    .mobile-navigation .menu a {
-      padding: 20px;
-      display: block;
-      color: white; }
-    .mobile-navigation .menu .menu-item {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-      .mobile-navigation .menu .menu-item:last-child {
-        border-bottom: none; }
-      .mobile-navigation .menu .menu-item.current-menu-item a {
-        color: #009ad8; }
 
 .hero {
   background-size: cover;

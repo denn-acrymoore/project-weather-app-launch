@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+	"dist": "surge --domain project-weather-app-chris-denn-stefan-wilson.surge.sh"
   },
   "private": true,
   "dependencies": {

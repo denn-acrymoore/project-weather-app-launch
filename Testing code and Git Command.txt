@@ -24,7 +24,7 @@ cd
 git remote add origin <gitLink>
 git remote -v
 git add .
-git commmit -m "First Commit"
-git push origin master
+git commit -m "First Commit"
+git push origin master atau git push origin main
 
 git help
